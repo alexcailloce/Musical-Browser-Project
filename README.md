@@ -24,5 +24,8 @@ The dags folder contains python scripts defining our DAGs in Airflow. These are 
 We can create some kind of pipelines by triggering a DAG after the successful completion of another (see code).
 
 ## Scripts
-This folder contains pythons scripts regrouping functions used by the DAGs. One python file for one DAG.
+This folder contains two sub folders:
+- Pythons scripts regrouping functions used by the DAGs. One python file for one DAG.
 This was done to preserve the readability of the code.
+
+- SQL scripts that are used to migrate the data from MinIO to our postgres DB
